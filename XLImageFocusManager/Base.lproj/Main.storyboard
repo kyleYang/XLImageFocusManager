@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,72 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo1t.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CnY-rw-QKc">
+                                <rect key="frame" x="46" y="70" width="518" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="6jM-k1-2JR"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo3t.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cWy-Eo-LB0">
+                                <rect key="frame" x="39" y="465" width="238" height="101"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo2t.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="imW-sx-Kxr">
+                                <rect key="frame" x="96" y="190" width="388" height="260"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="260" id="Umw-Qc-nh3"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo4t.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vGG-H2-hLH">
+                                <rect key="frame" x="307" y="466" width="237" height="101"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="vGG-H2-hLH" secondAttribute="trailing" constant="105" id="25Q-ZU-eZL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vGG-H2-hLH" secondAttribute="trailing" constant="40" id="9Xj-UE-ITK"/>
+                            <constraint firstItem="vGG-H2-hLH" firstAttribute="leading" secondItem="cWy-Eo-LB0" secondAttribute="trailing" constant="40" id="D3f-B1-RWn"/>
+                            <constraint firstItem="cWy-Eo-LB0" firstAttribute="top" secondItem="imW-sx-Kxr" secondAttribute="bottom" constant="15" id="E50-PJ-Gzw"/>
+                            <constraint firstItem="vGG-H2-hLH" firstAttribute="width" secondItem="cWy-Eo-LB0" secondAttribute="width" id="Fh1-ie-5bj"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cWy-Eo-LB0" secondAttribute="bottom" constant="34" id="JwH-4K-bJN"/>
+                            <constraint firstItem="CnY-rw-QKc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="Kst-30-5Pe"/>
+                            <constraint firstItem="CnY-rw-QKc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="MeT-FL-Gih"/>
+                            <constraint firstItem="vGG-H2-hLH" firstAttribute="height" secondItem="cWy-Eo-LB0" secondAttribute="height" id="OVJ-9h-ZWF"/>
+                            <constraint firstItem="vGG-H2-hLH" firstAttribute="height" secondItem="cWy-Eo-LB0" secondAttribute="height" id="Rdv-Eg-0lX"/>
+                            <constraint firstItem="imW-sx-Kxr" firstAttribute="trailing" secondItem="CnY-rw-QKc" secondAttribute="trailing" constant="-80" id="VTv-d2-7lB"/>
+                            <constraint firstItem="vGG-H2-hLH" firstAttribute="width" secondItem="cWy-Eo-LB0" secondAttribute="width" id="XPr-RM-Dg3"/>
+                            <constraint firstItem="cWy-Eo-LB0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="23" id="bt5-tz-1S9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CnY-rw-QKc" secondAttribute="trailing" constant="20" id="krN-Jp-Drj"/>
+                            <constraint firstItem="imW-sx-Kxr" firstAttribute="leading" secondItem="CnY-rw-QKc" secondAttribute="leading" constant="50" id="lyj-wI-CCu"/>
+                            <constraint firstItem="vGG-H2-hLH" firstAttribute="centerY" secondItem="cWy-Eo-LB0" secondAttribute="centerY" constant="0.5" id="rDt-SA-BGG"/>
+                            <constraint firstItem="imW-sx-Kxr" firstAttribute="top" secondItem="CnY-rw-QKc" secondAttribute="bottom" constant="20" id="vmN-uz-ci5"/>
+                            <constraint firstItem="vGG-H2-hLH" firstAttribute="leading" secondItem="cWy-Eo-LB0" secondAttribute="trailing" constant="30" id="xhB-MN-4Jd"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="25Q-ZU-eZL"/>
+                                <exclude reference="D3f-B1-RWn"/>
+                                <exclude reference="Fh1-ie-5bj"/>
+                                <exclude reference="OVJ-9h-ZWF"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="imageFour" destination="vGG-H2-hLH" id="5fX-BU-Z79"/>
+                        <outlet property="imageOne" destination="CnY-rw-QKc" id="09S-Kq-dRM"/>
+                        <outlet property="imageThree" destination="cWy-Eo-LB0" id="4bi-z1-zVl"/>
+                        <outlet property="imageTwo" destination="imW-sx-Kxr" id="ojJ-sp-vfN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="339" y="380"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="photo1t.jpg" width="200" height="133"/>
+        <image name="photo2t.jpg" width="133" height="200"/>
+        <image name="photo3t.jpg" width="200" height="133"/>
+        <image name="photo4t.jpg" width="133" height="200"/>
+    </resources>
 </document>

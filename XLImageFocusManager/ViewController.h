@@ -11,5 +11,10 @@
 @interface ViewController : UIViewController
 
 
+@property (nonatomic, weak) IBOutlet UIImageView *imageOne;
+@property (nonatomic, weak) IBOutlet UIImageView *imageTwo;
+@property (nonatomic, weak) IBOutlet UIImageView *imageThree;
+@property (nonatomic, weak) IBOutlet UIImageView *imageFour;
+
 @end
 

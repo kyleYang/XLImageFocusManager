@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B773141B08212A007A7107 /* XLZoomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B773131B08212A007A7107 /* XLZoomImageView.m */; };
+		18B773171B084255007A7107 /* XLTapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B773161B084255007A7107 /* XLTapDetectingImageView.m */; };
+		18B7731A1B0885F6007A7107 /* XLFocusUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B773191B0885F6007A7107 /* XLFocusUtil.m */; };
 		27882A321B04486000C793F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27882A311B04486000C793F2 /* main.m */; };
 		27882A351B04486000C793F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27882A341B04486000C793F2 /* AppDelegate.m */; };
 		27882A381B04486000C793F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27882A371B04486000C793F2 /* ViewController.m */; };
@@ -14,6 +17,25 @@
 		27882A3D1B04486000C793F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27882A3C1B04486000C793F2 /* Images.xcassets */; };
 		27882A401B04486000C793F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27882A3E1B04486000C793F2 /* LaunchScreen.xib */; };
 		27882A4C1B04486000C793F2 /* XLImageFocusManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27882A4B1B04486000C793F2 /* XLImageFocusManagerTests.m */; };
+		27882A661B04977600C793F2 /* photo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27882A561B04977600C793F2 /* photo1.jpg */; };
+		27882A671B04977600C793F2 /* photo1t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27882A571B04977600C793F2 /* photo1t.jpg */; };
+		27882A681B04977600C793F2 /* photo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27882A581B04977600C793F2 /* photo2.jpg */; };
+		27882A691B04977600C793F2 /* photo2t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27882A591B04977600C793F2 /* photo2t.jpg */; };
+		27882A6A1B04977600C793F2 /* photo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27882A5A1B04977600C793F2 /* photo3.jpg */; };
+		27882A6B1B04977600C793F2 /* photo3t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27882A5B1B04977600C793F2 /* photo3t.jpg */; };
+		27882A6C1B04977600C793F2 /* photo4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27882A5C1B04977600C793F2 /* photo4.jpg */; };
+		27882A6D1B04977600C793F2 /* photo4t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27882A5D1B04977600C793F2 /* photo4t.jpg */; };
+		27882A6E1B04977600C793F2 /* photo5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27882A5E1B04977600C793F2 /* photo5.jpg */; };
+		27882A6F1B04977600C793F2 /* photo5t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27882A5F1B04977600C793F2 /* photo5t.jpg */; };
+		27882A701B04977600C793F2 /* photo6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27882A601B04977600C793F2 /* photo6.jpg */; };
+		27882A711B04977600C793F2 /* photo6t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27882A611B04977600C793F2 /* photo6t.jpg */; };
+		27882A721B04977600C793F2 /* photo7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27882A621B04977600C793F2 /* photo7.jpg */; };
+		27882A731B04977600C793F2 /* photo7t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27882A631B04977600C793F2 /* photo7t.jpg */; };
+		27882A741B04977600C793F2 /* photo8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27882A641B04977600C793F2 /* photo8.jpg */; };
+		27882A751B04977600C793F2 /* photo8t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27882A651B04977600C793F2 /* photo8t.jpg */; };
+		27A44C401B05D50200CD6AEC /* XLImageFocusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A44C3F1B05D50200CD6AEC /* XLImageFocusManager.m */; };
+		27A44C431B05D86B00CD6AEC /* XLImageFocusController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A44C421B05D86B00CD6AEC /* XLImageFocusController.m */; };
+		35AFAB555B2EB63AF70CFD59 /* libPods-XLImageFocusManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 455E63ECEF7C38188C778AC9 /* libPods-XLImageFocusManager.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18B773121B08212A007A7107 /* XLZoomImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLZoomImageView.h; sourceTree = "<group>"; };
+		18B773131B08212A007A7107 /* XLZoomImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLZoomImageView.m; sourceTree = "<group>"; };
+		18B773151B084255007A7107 /* XLTapDetectingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTapDetectingImageView.h; sourceTree = "<group>"; };
+		18B773161B084255007A7107 /* XLTapDetectingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTapDetectingImageView.m; sourceTree = "<group>"; };
+		18B773181B0885F6007A7107 /* XLFocusUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFocusUtil.h; sourceTree = "<group>"; };
+		18B773191B0885F6007A7107 /* XLFocusUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFocusUtil.m; sourceTree = "<group>"; };
+		26C9AE2C245C713DF718B71B /* Pods-XLImageFocusManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLImageFocusManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLImageFocusManager/Pods-XLImageFocusManager.release.xcconfig"; sourceTree = "<group>"; };
 		27882A2C1B04486000C793F2 /* XLImageFocusManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLImageFocusManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27882A301B04486000C793F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27882A311B04486000C793F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +69,29 @@
 		27882A451B04486000C793F2 /* XLImageFocusManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLImageFocusManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27882A4A1B04486000C793F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27882A4B1B04486000C793F2 /* XLImageFocusManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLImageFocusManagerTests.m; sourceTree = "<group>"; };
+		27882A561B04977600C793F2 /* photo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo1.jpg; path = Photos/photo1.jpg; sourceTree = "<group>"; };
+		27882A571B04977600C793F2 /* photo1t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo1t.jpg; path = Photos/photo1t.jpg; sourceTree = "<group>"; };
+		27882A581B04977600C793F2 /* photo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo2.jpg; path = Photos/photo2.jpg; sourceTree = "<group>"; };
+		27882A591B04977600C793F2 /* photo2t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo2t.jpg; path = Photos/photo2t.jpg; sourceTree = "<group>"; };
+		27882A5A1B04977600C793F2 /* photo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo3.jpg; path = Photos/photo3.jpg; sourceTree = "<group>"; };
+		27882A5B1B04977600C793F2 /* photo3t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo3t.jpg; path = Photos/photo3t.jpg; sourceTree = "<group>"; };
+		27882A5C1B04977600C793F2 /* photo4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo4.jpg; path = Photos/photo4.jpg; sourceTree = "<group>"; };
+		27882A5D1B04977600C793F2 /* photo4t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo4t.jpg; path = Photos/photo4t.jpg; sourceTree = "<group>"; };
+		27882A5E1B04977600C793F2 /* photo5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo5.jpg; path = Photos/photo5.jpg; sourceTree = "<group>"; };
+		27882A5F1B04977600C793F2 /* photo5t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo5t.jpg; path = Photos/photo5t.jpg; sourceTree = "<group>"; };
+		27882A601B04977600C793F2 /* photo6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo6.jpg; path = Photos/photo6.jpg; sourceTree = "<group>"; };
+		27882A611B04977600C793F2 /* photo6t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo6t.jpg; path = Photos/photo6t.jpg; sourceTree = "<group>"; };
+		27882A621B04977600C793F2 /* photo7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo7.jpg; path = Photos/photo7.jpg; sourceTree = "<group>"; };
+		27882A631B04977600C793F2 /* photo7t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo7t.jpg; path = Photos/photo7t.jpg; sourceTree = "<group>"; };
+		27882A641B04977600C793F2 /* photo8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo8.jpg; path = Photos/photo8.jpg; sourceTree = "<group>"; };
+		27882A651B04977600C793F2 /* photo8t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo8t.jpg; path = Photos/photo8t.jpg; sourceTree = "<group>"; };
+		27A44C3D1B05C6E500CD6AEC /* XLImageFocusManager.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLImageFocusManager.pch; sourceTree = "<group>"; };
+		27A44C3E1B05D50200CD6AEC /* XLImageFocusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLImageFocusManager.h; sourceTree = "<group>"; };
+		27A44C3F1B05D50200CD6AEC /* XLImageFocusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLImageFocusManager.m; sourceTree = "<group>"; };
+		27A44C411B05D86B00CD6AEC /* XLImageFocusController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLImageFocusController.h; sourceTree = "<group>"; };
+		27A44C421B05D86B00CD6AEC /* XLImageFocusController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLImageFocusController.m; sourceTree = "<group>"; };
+		455E63ECEF7C38188C778AC9 /* libPods-XLImageFocusManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLImageFocusManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1D65E3DDC6C46440F71A9D /* Pods-XLImageFocusManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLImageFocusManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLImageFocusManager/Pods-XLImageFocusManager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35AFAB555B2EB63AF70CFD59 /* libPods-XLImageFocusManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +119,8 @@
 				27882A2E1B04486000C793F2 /* XLImageFocusManager */,
 				27882A481B04486000C793F2 /* XLImageFocusManagerTests */,
 				27882A2D1B04486000C793F2 /* Products */,
+				400C68C43E446DFDE0EAF16A /* Pods */,
+				9EF4C186DDCCABF713BA4C02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +136,8 @@
 		27882A2E1B04486000C793F2 /* XLImageFocusManager */ = {
 			isa = PBXGroup;
 			children = (
+				27882A771B04985200C793F2 /* XLImageFocusManager */,
+				27882A761B04977E00C793F2 /* Photos */,
 				27882A331B04486000C793F2 /* AppDelegate.h */,
 				27882A341B04486000C793F2 /* AppDelegate.m */,
 				27882A361B04486000C793F2 /* ViewController.h */,
@@ -89,6 +146,7 @@
 				27882A3C1B04486000C793F2 /* Images.xcassets */,
 				27882A3E1B04486000C793F2 /* LaunchScreen.xib */,
 				27882A2F1B04486000C793F2 /* Supporting Files */,
+				27A44C3D1B05C6E500CD6AEC /* XLImageFocusManager.pch */,
 			);
 			path = XLImageFocusManager;
 			sourceTree = "<group>";
@@ -119,6 +177,63 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		27882A761B04977E00C793F2 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				27882A561B04977600C793F2 /* photo1.jpg */,
+				27882A571B04977600C793F2 /* photo1t.jpg */,
+				27882A581B04977600C793F2 /* photo2.jpg */,
+				27882A591B04977600C793F2 /* photo2t.jpg */,
+				27882A5A1B04977600C793F2 /* photo3.jpg */,
+				27882A5B1B04977600C793F2 /* photo3t.jpg */,
+				27882A5C1B04977600C793F2 /* photo4.jpg */,
+				27882A5D1B04977600C793F2 /* photo4t.jpg */,
+				27882A5E1B04977600C793F2 /* photo5.jpg */,
+				27882A5F1B04977600C793F2 /* photo5t.jpg */,
+				27882A601B04977600C793F2 /* photo6.jpg */,
+				27882A611B04977600C793F2 /* photo6t.jpg */,
+				27882A621B04977600C793F2 /* photo7.jpg */,
+				27882A631B04977600C793F2 /* photo7t.jpg */,
+				27882A641B04977600C793F2 /* photo8.jpg */,
+				27882A651B04977600C793F2 /* photo8t.jpg */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+		27882A771B04985200C793F2 /* XLImageFocusManager */ = {
+			isa = PBXGroup;
+			children = (
+				27A44C3E1B05D50200CD6AEC /* XLImageFocusManager.h */,
+				27A44C3F1B05D50200CD6AEC /* XLImageFocusManager.m */,
+				27A44C411B05D86B00CD6AEC /* XLImageFocusController.h */,
+				27A44C421B05D86B00CD6AEC /* XLImageFocusController.m */,
+				18B773121B08212A007A7107 /* XLZoomImageView.h */,
+				18B773131B08212A007A7107 /* XLZoomImageView.m */,
+				18B773151B084255007A7107 /* XLTapDetectingImageView.h */,
+				18B773161B084255007A7107 /* XLTapDetectingImageView.m */,
+				18B773181B0885F6007A7107 /* XLFocusUtil.h */,
+				18B773191B0885F6007A7107 /* XLFocusUtil.m */,
+			);
+			name = XLImageFocusManager;
+			sourceTree = "<group>";
+		};
+		400C68C43E446DFDE0EAF16A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD1D65E3DDC6C46440F71A9D /* Pods-XLImageFocusManager.debug.xcconfig */,
+				26C9AE2C245C713DF718B71B /* Pods-XLImageFocusManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9EF4C186DDCCABF713BA4C02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				455E63ECEF7C38188C778AC9 /* libPods-XLImageFocusManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27882A4F1B04486000C793F2 /* Build configuration list for PBXNativeTarget "XLImageFocusManager" */;
 			buildPhases = (
+				1608EC5C06F612258C171A04 /* Check Pods Manifest.lock */,
 				27882A281B04486000C793F2 /* Sources */,
 				27882A291B04486000C793F2 /* Frameworks */,
 				27882A2A1B04486000C793F2 /* Resources */,
+				F8A12ABEE33F1A82E529F438 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +316,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27882A661B04977600C793F2 /* photo1.jpg in Resources */,
+				27882A741B04977600C793F2 /* photo8.jpg in Resources */,
+				27882A681B04977600C793F2 /* photo2.jpg in Resources */,
 				27882A3B1B04486000C793F2 /* Main.storyboard in Resources */,
 				27882A401B04486000C793F2 /* LaunchScreen.xib in Resources */,
+				27882A6E1B04977600C793F2 /* photo5.jpg in Resources */,
+				27882A701B04977600C793F2 /* photo6.jpg in Resources */,
+				27882A6F1B04977600C793F2 /* photo5t.jpg in Resources */,
 				27882A3D1B04486000C793F2 /* Images.xcassets in Resources */,
+				27882A6C1B04977600C793F2 /* photo4.jpg in Resources */,
+				27882A751B04977600C793F2 /* photo8t.jpg in Resources */,
+				27882A731B04977600C793F2 /* photo7t.jpg in Resources */,
+				27882A711B04977600C793F2 /* photo6t.jpg in Resources */,
+				27882A721B04977600C793F2 /* photo7.jpg in Resources */,
+				27882A671B04977600C793F2 /* photo1t.jpg in Resources */,
+				27882A6D1B04977600C793F2 /* photo4t.jpg in Resources */,
+				27882A6B1B04977600C793F2 /* photo3t.jpg in Resources */,
+				27882A6A1B04977600C793F2 /* photo3.jpg in Resources */,
+				27882A691B04977600C793F2 /* photo2t.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +347,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1608EC5C06F612258C171A04 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A12ABEE33F1A82E529F438 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLImageFocusManager/Pods-XLImageFocusManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27882A281B04486000C793F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27A44C431B05D86B00CD6AEC /* XLImageFocusController.m in Sources */,
+				18B773171B084255007A7107 /* XLTapDetectingImageView.m in Sources */,
 				27882A381B04486000C793F2 /* ViewController.m in Sources */,
+				18B7731A1B0885F6007A7107 /* XLFocusUtil.m in Sources */,
 				27882A351B04486000C793F2 /* AppDelegate.m in Sources */,
+				27A44C401B05D50200CD6AEC /* XLImageFocusManager.m in Sources */,
 				27882A321B04486000C793F2 /* main.m in Sources */,
+				18B773141B08212A007A7107 /* XLZoomImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,9 +518,13 @@
 		};
 		27882A501B04486000C793F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD1D65E3DDC6C46440F71A9D /* Pods-XLImageFocusManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XLImageFocusManager/XLImageFocusManager.pch;
 				INFOPLIST_FILE = XLImageFocusManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,9 +532,13 @@
 		};
 		27882A511B04486000C793F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26C9AE2C245C713DF718B71B /* Pods-XLImageFocusManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XLImageFocusManager/XLImageFocusManager.pch;
 				INFOPLIST_FILE = XLImageFocusManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +597,7 @@
 				27882A511B04486000C793F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27882A521B04486000C793F2 /* Build configuration list for PBXNativeTarget "XLImageFocusManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +606,7 @@
 				27882A541B04486000C793F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
