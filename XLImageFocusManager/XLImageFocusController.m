@@ -248,9 +248,12 @@ static NSTimeInterval const kDefaultOrientationAnimationDuration = 0.4;
     // Calculate which pages should be visible
     // Ignore padding as paging bounces encroach on that
     // and lead to false page loads
-    CGRect visibleBounds = _pagingScrollView.bounds;
-    NSInteger iFirstIndex = (NSInteger)floorf((CGRectGetMinX(visibleBounds)-PADDING*2) / CGRectGetWidth(visibleBounds));
-    NSInteger iLastIndex  = (NSInteger)floorf((CGRectGetMaxX(visibleBounds)+PADDING*2) / CGRectGetWidth(visibleBounds));
+    
+    CGFloat width = _pagingScrollView.frame.size.width;
+    NSInteger page = (_pagingScrollView.contentOffset.x + (0.5f * width)) / width;
+    
+    NSInteger iFirstIndex = page -1;;
+    NSInteger iLastIndex  = page+1;
     if (iFirstIndex < 0) iFirstIndex = 0;
     if (iFirstIndex > [self numberOfPhotos] - 1) iFirstIndex = [self numberOfPhotos] - 1;
     if (iLastIndex < 0) iLastIndex = 0;

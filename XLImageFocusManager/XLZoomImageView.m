@@ -97,6 +97,8 @@
 {
     
     if (_photoImage == photoImage) {
+        
+        _photoImageView.image = _photoImage;
         return;
     }
     _loadingIndicator.hidden = TRUE;
@@ -127,8 +129,15 @@
     }
     
     _imageURL = imageURL;
-    [self startLoadingURL:_imageURL withAnimation:FALSE];
     _loadingIndicator.hidden = TRUE;
+    UIImage *image = [[SDWebImageManager sharedManager].imageCache imageFromDiskCacheForKey:_imageURL];
+    if (image != nil) {
+        self.photoImage = image;
+        return;
+    }
+    
+    [self startLoadingURL:_imageURL withAnimation:FALSE];
+  
     
     
 }
